@@ -19,13 +19,21 @@ public class main {
             earthQuakeObject.magnetude();
             break;
 
+            case 3:
+            numbersOnly numbersOnlyObject = new numbersOnly();
+            numbersOnlyObject.numbersonly();
+            break;
+
+            case 4:
+            damage damageObject = new damage();
+            damageObject.damagerate();
+            break;
+
             default:
             System.out.println("invalid input");
             break;
-
         }
         
     System.exit(0);
     }
-    
 }
