@@ -29,6 +29,11 @@ public class main {
             damageObject.damagerate();
             break;
 
+            case 5:
+            twodimention twodimentionObject = new twodimention();
+            twodimentionObject.twodim();
+            break;
+
             default:
             System.out.println("invalid input");
             break;
